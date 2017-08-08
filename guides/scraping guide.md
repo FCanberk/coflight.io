@@ -14,11 +14,11 @@ Input format will be in CSV format and it will include the following in the writ
 
 Sample input format for one way trip
 
-`IST,ADA,20170928-1530,,OW`
+`IST,ADA,09282017-1530,,OW`
 
 Sample input format for round trip
 
-`IST,BEG,20170928-2250,20170930-0010,RT`
+`IST,BEG,09282017-2250,09302017-0010,RT`
 
 ### Output Format
 
@@ -34,8 +34,8 @@ Output format will be in CSV format and it will include the following in the wri
 
 Sample output format of one way trip with cookies
 
-`SAW,OTP,20170327-2300,,20170705-1247,127.99,WC`
+`SAW,OTP,03272017-2300,,07052017-1247,127.99,WC`
 
 Sample output format of round trip without cookies
 
-`LHR,IST,20171230-0515,20180105-1500,20170705-1247,215.00,WOC`
+`LHR,IST,20171230-0515,01052017-1500,07052017-1245,215.00,WOC`

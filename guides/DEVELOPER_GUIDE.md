@@ -1,10 +1,15 @@
 ## Project Details for Developers
 
-Coflight will run on **Google Cloud Platform. Selenium Web Driver, Python** and **PhantomJS.** will be used for scraping. **PostgreSQL** will be used for storing the data that collected. The project has 3 main parts. 
+Coflight will run on **Google Cloud Platform. Selenium Web Driver, Python** and **PhantomJS** will be used for scraping. **PostgreSQL** will be used for storing the data that collected. The project has 3 main parts. 
+
+### **Project Setup**
+
+Besides the [requirements.txt](https://github.com/coflight/coflight.io/blob/master/requirements.txt), download [PhantomJS](http://phantomjs.org/download.html) and unzip the `.exe` file inside `scraping` folder.
+
 
 ### **1. Scraping**
 
-**Selenium Web Driver**, **Python** and **PhantomJS.** will be used for scraping flight data of airline companies linked below
+**Selenium Web Driver**, **Python** and **PhantomJS** will be used for scraping flight data of airline companies linked below
 
 * #### [Turkish Airlines](https://www.turkishairlines.com/)
 * #### [Pegasus Airlines](https://www.flypgs.com/)
@@ -18,7 +23,7 @@ Ticket price `currency` will be `TRY`
 
 For each airline company ticket price, flight date&time,current date&time and destination should be scraped.
 
-<br>For Turkish Airlines 20 International 30 Domestic flights,
+<br>For Turkish Airlines 30 International 20 Domestic flights,
 <br>For Pegasus Airlines 20 International 20 Domestic flights,
 <br>For Atlas Global     15 International 15 Domestic flights,
 <br>For Onur Air         15 International 15 Domestic flights data 
@@ -32,9 +37,9 @@ Collected data will be stored in a document db (most likely PostgreSQL). Scraped
 
 Initial dataset should be stored in database and the database should be updated every flight update.
 
-### **3. Demonstrating**
+### **3. Reporting**
 
-Collected data should be demonstrated in different graphics to compare ticket prices **with** and **without** deleting **cookies** and to see ticket price fluctuation for different time periods.
+Collected data should be reported in different graphics to compare ticket prices **with** and **without** deleting **cookies** and to see ticket price fluctuation for different time periods.
 
 * Daily ticket price of same ticket with and without cookies,
 * Weekly ticket price of same ticket with and without cookies,
