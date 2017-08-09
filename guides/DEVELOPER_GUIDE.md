@@ -2,11 +2,6 @@
 
 Coflight will run on **Google Cloud Platform. Selenium Web Driver, Python** and **PhantomJS** will be used for scraping. **PostgreSQL** will be used for storing the data that collected. The project has 3 main parts. 
 
-### **Project Setup**
-
-Besides the [requirements.txt](https://github.com/coflight/coflight.io/blob/master/requirements.txt), download [PhantomJS](http://phantomjs.org/download.html) and unzip the `.exe` file inside `scraping` folder.
-
-
 ### **1. Scraping**
 
 **Selenium Web Driver**, **Python** and **PhantomJS** will be used for scraping flight data of airline companies linked below
@@ -51,3 +46,18 @@ Collected data should be reported in different graphics to compare ticket prices
 * Ticket price of same destination for different departure dates&times will graphically shown for whole year for each company. To see which season of year has the cheapest/the most expensive tickets.
 
 * Ticket price of one flight will graphically shown for whole year for each company. To see when is the cheapest/the most expensive ticket for a particular flight.
+
+### Contribution
+
+* Project is driven over Github. Please look at the Github issues not assigned yet.
+* Please make sure that every functionality added has a test coverage and does not break any existing test.
+
+#### Build
+
+* Project modules are written with `Python 3`.
+* In order to install the dependencies use `pip3 install -r requirements.txt`
+* Besides the `requirements.txt`, download [PhantomJS](http://phantomjs.org/download.html) and unzip the `.exe` file inside the `scraping` folder.
+
+#### Test
+
+* Running the tests requires `pytest`, just run `pytest tests/` in order to make sure there is no regression before submitting the PR.
