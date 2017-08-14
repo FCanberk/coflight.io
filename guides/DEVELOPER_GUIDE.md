@@ -52,12 +52,36 @@ Collected data should be reported in different graphics to compare ticket prices
 * Project is driven over Github. Please look at the Github issues not assigned yet.
 * Please make sure that every functionality added has a test coverage and does not break any existing test.
 
+#### Installation
+
+##### Windows
+
+* Download [PhantomJS](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip).
+* Copy the executable `PhantomJS` file inside `bin` folder.
+* Paste it to `src` folder where the scrapers are.
+
+##### Mac OS X
+
+* Download [PhantomJS](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip).
+* Copy the executable `PhantomJS` file inside `bin` folder.
+* Paste it to `src` folder where the scrapers are.
+* **Make sure the executable file is in `PATH`.**
+
+##### Linux
+
+* Download [PhantomJS(64 bit)](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2) or [PhantomJS(32 bit)](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-i686.tar.bz2).
+* Copy the executable `PhantomJS` file inside `bin` folder.
+* Paste it to `src` folder where the scrapers are.
+* **Make sure the executable file is in `PATH`.**
+
+
 #### Build
 
 * Project modules are written with `Python 3`.
 * In order to install the dependencies use `pip3 install -r requirements.txt`
-* Besides the `requirements.txt`, download [PhantomJS](http://phantomjs.org/download.html) and unzip the `.exe` file inside the `scraping` folder.
 
 #### Test
 
 * Running the tests requires `pytest`, just run `pytest tests/` in order to make sure there is no regression before submitting the PR.
+
+Please refer to [scraping guide](scraping%20guide.md) to see detailed information about scraping.

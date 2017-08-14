@@ -20,6 +20,18 @@ Sample input format for round trip
 
 `IST,BEG,09282017-2250,09302017-0010,RT`
 
+It is optional to query flights from dataset or from command line arguments.
+
+Sample input via command line arguments format
+
+`--depAirport IST --arrAirport ADA --depDate 09282017-2250 --OWRT OW --ss take`
+
+This sample is to query a one way flight that
+* Departures from Istanbul Ataturk Airport
+* Arrives to Adana Sakirpasa Airport
+* On 28 September 2017 - 22:50
+* Saves screenshots while querying the flight.
+
 ### Output Format
 
 Output format will be in CSV format and it will include the following in the written order
