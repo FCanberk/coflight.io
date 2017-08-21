@@ -1,5 +1,7 @@
 ## Coflight 
 
+[![Build Status](https://travis-ci.org/FCanberk/coflight.io.svg?branch=master)](https://travis-ci.org/FCanberk/coflight.io)
+
 ### Description
 
 Coflight is about inspecting pricing policies (strategies) of airline companies and proving the rumors are right or wrong on social media which says deleting cookies affects ticket prices.
