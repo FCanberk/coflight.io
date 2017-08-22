@@ -44,4 +44,4 @@ Collected data will be demonstrated in different graphics to compare ticket pric
 
 * Ticket price of same flight will graphically shown for a year for each company. To see when is the cheapest and the most expensive ticket for a particular flight.
 
-Please refer to '[DEVELOPER_GUIDE](guides/DEVELOPER_GUIDE.md)' to see the technologies used.
+Please refer to [DEVELOPER_GUIDE](guides/DEVELOPER_GUIDE.md) to see the technologies used.

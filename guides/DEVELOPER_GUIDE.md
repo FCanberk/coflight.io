@@ -1,10 +1,10 @@
 ## Project Details for Developers
 
-Coflight will run on **Google Cloud Platform. Selenium Web Driver, Python** and **PhantomJS** will be used for scraping. **PostgreSQL** will be used for storing the data that collected. The project has 3 main parts. 
+Coflight will run on **Google Cloud Platform. Selenium WebDriver, Python** and **PhantomJS** will be used for scraping. **PostgreSQL** will be used for storing the data that collected. The project has 3 main parts:
 
 ### **1. Scraping**
 
-**Selenium Web Driver**, **Python** and **PhantomJS** will be used for scraping flight data of airline companies linked below
+**Selenium WebDriver**, **Python** and **PhantomJS** will be used for scraping flight data of airline companies linked below
 
 * #### [Turkish Airlines](https://www.turkishairlines.com/)
 * #### [Pegasus Airlines](https://www.flypgs.com/)
@@ -52,7 +52,7 @@ Collected data should be reported in different graphics to compare ticket prices
 * Project is driven over Github. Please look at the Github issues not assigned yet.
 * Please make sure that every functionality added has a test coverage and does not break any existing test.
 
-#### Installation
+### Installation
 
 ##### Windows
 
@@ -79,6 +79,7 @@ Collected data should be reported in different graphics to compare ticket prices
 
 * Project modules are written with `Python 3`.
 * In order to install the dependencies use `pip3 install -r requirements.txt`
+
 
 #### Test
 

@@ -4,7 +4,7 @@ This guide describes scraping process for Coflight project. It defines input for
 
 ### Input Format
 
-Input format will be in CSV format and it will include the following in the written order
+Input will be gathered via `orchestrator` and it will be in CSV format.Sample inputs could be found in [dataset](https://github.com/FCanberk/coflight.io/tree/master/src/dataset) or could be created manually. The input will include following informations in the written order
 
 * Departure airport code
 * Arrival airport code
@@ -14,7 +14,7 @@ Input format will be in CSV format and it will include the following in the writ
 
 Sample input format for one way trip
 
-`IST,ADA,09282017-1530,,OW`
+`IST,ADA,09282017-1530,,OWc
 
 Sample input format for round trip
 
